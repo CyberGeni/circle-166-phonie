@@ -4,16 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
 
+    <!-- Google Fonts External link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font CDN Link -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- External CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+
+    <title>PHONIE - CIRCLE 166</title>
 </head>
 <body>
-    
-    <h2>make some magic here!!</h2>
+    <nav class="nav-section">
+        <h2 class="logo-text">PHONIE</h2>
+        <p class="nav-instruction-text">Enter a +234 mobile number in the text field below</p>
+        <p class="nav-circle-number">CODER'S OASIS</p>
+    </nav>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+    <!-- ###################### -->
+    <!-- Mobile Heading section -->
+    <!-- ###################### -->
+    <div class="mobile-logo">
+        Coder's Oasis <small class="mobile-logo-small">circle-166</small>
+    </div>
+    <header class="mobile-head">
+        <h1 class="mobile-heading">Phonie</h1>
+        <p class="mobile-description">
+            Enter a +234 mobile number in the text field below
+        </p>
+    </header>
+    
+    <!-- ####################### -->
+    <!-- End of Mobile Header/Nav -->
+    <!-- ####################### -->
+
+    <section class="layout-section">
+
+        <!-- First Layout Section -->
+
+        <div class="layout first-layout">
+            <form class="input-wrapper">
+
+                <!-- Email Input -->
+                <div class="input-container">
+                    <div class="input-component">
+                        <label for="email" class="input-label">Email Address</label>
+                        <input type="email" class="input-field" id="email" 
+                        placeholder="Enter email address here" 
+                        required>
+                    </div>
+                
+                    <ion-icon class="positioning" name="checkmark"></ion-icon>
+                </div>
+
+                <!-- FUllname Input -->
+                <div class="input-container">
+                    <div class="input-component">
+                        <label for="fullname" class="input-label">Enter Fullname</label>
+                        <input type="text" class="input-field" id="fullname" name="fullname"  placeholder="Enter your name here"
+                        required >
+                    </div>
+
+                    <ion-icon class="positioning" name="checkmark"></ion-icon>
+                </div>
+
+                <!-- Mobile Number Input -->
+                <div class="input-container">
+                    <div class="input-component">
+                        <label for="number" class="input-label">Mobile Number</label>
+                        <input type="text" class="input-field" id="number" name="number" 
+                        placeholder="080x xxxx xxx" required>
+                    </div>
+
+                    <img src="./Image/laoding.gif" alt="Network Provider" class="positioning network-provider">
+                </div>
+
+                <div class="signup">
+                    <button class="button">Submit</button>
+    
+                    <div class="authentication">
+                        <small class="create-account">New to PHONIE? </small>
+                        <a href="#" class="create-account-link">Create an account!</a>
+                    </div>
+
+                </div>
+
+                <!-- <ion-icon name="arrow-dropright" class="arrow-head-icon"></ion-icon> -->
+            </form>
+
+            <p class="credit">Designed by <a href="#" class="credit-link">Circle-166</a></p>
+        </div>
+
+        <!-- Second Layout Section -->
+        <div class="layout second-layout">
+            <img src="Image/phonie 2.png" alt="Hero Image" class="hero-image">
+        </div>
+    </section>
+
+
+    <!-- Script.js File -->
+    <script src="script.js"></script>
+
+    <!-- Icon Ion Script Link -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>

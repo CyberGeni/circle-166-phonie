@@ -1,0 +1,252 @@
+/* {} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+/* ###################### */
+/* HELPER CLASSES */
+/* ###################### */
+
+.positioning {
+    position: absolute;
+    right: 13rem;
+    top: 5.3rem;
+}
+
+ion-icon {
+    font-size: 3rem;
+    color: rgba(196, 196, 196, 1);
+
+}
+
+.network-provider {
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 50%;
+}
+
+/* ####################### */
+/* End of HELPER CLASSES */
+/* ####################### */
+
+.nav-section {
+    padding: 0 4rem;
+    height: 6.5rem;
+    width: 100%;
+    background: linear-gradient(89.92deg, #AA4735 0.07%, #AA4735 31.53%, #AA4735 44.32%, rgba(162, 160, 229, 0.55) 60.85%, #A2A0E5 102.43%);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+    border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* position: fixed;
+    z-index: 1; */
+}
+
+.logo-text {
+    font-size: 2.5rem;
+    line-height: 33px;;
+}
+
+.nav-instruction-text {
+    font-size: 1.5rem;
+    font-weight: 400;;
+}
+
+.nav-circle-number {
+    font-size: 1.8rem;
+    font-weight: 600;;
+}
+
+/* DIsable for Desktop VIew */
+.mobile-logo {
+    display: none;
+}
+
+.mobile-head {
+    display: none;
+}
+
+/* ################### */
+/* \layout Section */
+/* ################### */
+.layout-section {
+    height: auto;
+
+    /* Observe this */
+    width: 100%;
+
+    /* background-color: orange; */
+
+    display: flex;
+
+}
+
+.first-layout {
+    /* background-color: yellow; */
+    flex: 0 1 50%;
+    background: rgba(170, 71, 53, 1);
+    
+    ;
+    padding: 4rem 5rem;
+}
+
+/* .input-wrapper {
+    
+} */
+
+.input-container {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-bottom: 5rem;
+
+    position: relative;
+}
+
+.input-component {
+    width: 80%;
+    /* background-color: green; */
+}
+
+.input-label {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-field {
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    border-radius: .8rem;
+    font-size: 1.8rem;
+    color:rgba(255, 255, 255, 1);
+    padding: 2rem;
+}
+
+.input-field:focus {
+    outline: none;;
+}
+
+.input-field::placeholder {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, .5);
+
+}
+
+/* Styling number input */
+
+.button {
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: .8rem;
+    border: none;
+    margin-right: 3rem;
+    
+    display: inline-block;
+    cursor: pointer;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #fff
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.authentication {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+    /* display: inline; */
+}
+
+.create-account {
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+
+.create-account-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    
+}
+
+.arrow-head-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    /* margin-top: 2rem; */
+}
+
+/* .create-account a {
+
+} */
+
+.credit {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-top: 5rem;
+    margin-bottom: 1px;
+    border-bottom: 3px solid purple;
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
+.credit-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/* ################# */
+/* SECOND LAYOUT */
+/* ################# */
+
+.second-layout {
+    background-color: rgba(162, 160, 229, 0.55);
+    flex: 0 1 50%;
+
+    position: relative;
+
+}
+
+.hero-image {
+    width: auto;
+    height: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
