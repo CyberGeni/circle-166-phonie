@@ -35,6 +35,10 @@ ion-icon {
     border-radius: 50%;
 }
 
+a {
+  color: #7470EC;
+}
+
 /* ####################### */
 /* End of HELPER CLASSES */
 /* ####################### */
@@ -213,7 +217,7 @@ ion-icon {
 
     margin-top: 5rem;
     margin-bottom: 1px;
-    border-bottom: 3px solid purple;
+    border-bottom: 3px solid #A2A0E5;
     display: inline-block;
     margin-bottom: 4rem;
 }
